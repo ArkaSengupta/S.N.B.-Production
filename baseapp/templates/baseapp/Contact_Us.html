@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block defaulttitle %}
+  <h1>Contact Us</h1>
+  <hr>
+{% endblock defaulttitle %}
+
+{% block mainimage %}
+
+  <img src="{% static 'images/contact_us1.jpg' %}" alt="" class='img-fluid img-thumbnail' max-width='100%'>
+{% endblock mainimage %}
+
+{% block defaulttext %}
+  <div class="row">
+    <div class="col-6">
+      <h5>Head Office</h5>
+      <h6>Kolkata </h6>
+      <p> 10, Old Post Office Street, <br>
+          3rd Floor, Room No. 101,<br>
+          Kolkata - 700 001 <br>
+          Ph: 74 3936 9048/ 033 4602 1958 <br>
+          E-mail: office@snbanerjea.com</p>
+    </div>
+	<!--
+    <div class="col-6">
+      <h5>City Office</h5>
+      <h6>Gurugram</h6>
+      <p>Partner-in Charge : CA Ashok Mathur  <br>
+        Tower 1, Apartment 3304, <br>
+		Tata Primanti, Sector 72, Badshahpur,<br>
+        Gurgaon - 122101, Haryana <br>
+        Ph : 99 1118 5847 <br>
+        Email:madan.ritu@snbanerjea.com</p>
+    </div>
+	-->
+  </div>
+
+  <br>
+  <h5>Branches</h5>
+
+  <div class="row">
+    <div class="col-4">
+      <h6>Gurugram</h6>
+	  <p>Tower 1, Apartment 3304, <br>
+		Tata Primanti, Sector 72, Badshahpur,<br>
+        Gurgaon - 122101, Haryana <br>
+        Ph : 99 1118 5847 <br></>
+		<!--
+      <p> C- 1827 Sushant Lok, <br>
+          Phase – 1 <br>
+          Gurugram  - 122002 <br>
+          Ph: 99 1118 5847</p> -->
+    </div>
+    <div class="col-4">
+      <h6>Ulluberia</h6>
+      <p> C/O - D. N. Patra <br>
+          Nona Shibtala Nona Area <br>
+          Uluberia - 711315 <br>
+          Ph: +91 93 3101 6968</p>
+    </div>
+  </div>
+{% endblock defaulttext %}
